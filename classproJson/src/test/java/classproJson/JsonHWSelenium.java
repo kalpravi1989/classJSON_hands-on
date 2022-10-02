@@ -15,7 +15,7 @@ public class JsonHWSelenium {
 		JSONParser jsonParser = new JSONParser();
 
 		try {
-			FileReader reader=new FileReader("/Users/balajivalveriveeraperumal/eclipse-workspace/classproJson/src/test/resources/Selenium.json");
+			FileReader reader=new FileReader("./src/test/resources/Selenium.json");
 			Object obj=jsonParser.parse(reader);
 			JSONObject seleniumFeature=(JSONObject)obj;
 			System.out.println(seleniumFeature);

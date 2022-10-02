@@ -16,7 +16,7 @@ public class jsonReader {
 		JSONParser jsonParser = new JSONParser();
 		
 		try {
-			FileReader reader=new FileReader("/Users/balajivalveriveeraperumal/eclipse-workspace/classproJson/src/test/resources/employeeList.json");
+			FileReader reader=new FileReader("./src/test/resources/employeeList.json");
 			Object obj=jsonParser.parse(reader);
 			JSONArray employeeList=(JSONArray)obj;
 			System.out.println(employeeList.get(1));

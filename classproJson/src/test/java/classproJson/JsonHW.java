@@ -15,7 +15,7 @@ public class JsonHW {
 		JSONParser jsonParser = new JSONParser();
 
 		try {
-			FileReader reader=new FileReader("/Users/balajivalveriveeraperumal/eclipse-workspace/classproJson/src/test/resources/java.json");
+			FileReader reader=new FileReader("./src/test/resources/java.json");
 			Object obj=jsonParser.parse(reader);
 			JSONObject javaFeature=(JSONObject)obj;
 			
