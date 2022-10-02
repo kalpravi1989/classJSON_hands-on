@@ -1,0 +1,35 @@
+{
+  "Topic": "TestNg",
+  "Feature": {
+    "Annotation": [
+      "BeforeSuite",
+      "BeforeClass",
+      "BeforeMethod",
+      "BeforeTest",
+      "Test",
+      "AfterTest",
+      "AfterMethod",
+      "AfterClass",
+      "AfterSuite"
+    ],
+    "Attributes": [
+      "Groups",
+      "dependsOnMethods",
+      "enabled",
+      "timeOut",
+      "description"
+    ],
+    "Annotation Attributes": [
+      "parameter",
+      "data provider"
+    ],
+    "Lisenters": [
+      "OnTestStart",
+      "OnTestSuccess",
+      "OnTestFailure",
+      "OnTestSkip",
+      "OnStart",
+      "OnFinish"
+    ]
+  }
+}

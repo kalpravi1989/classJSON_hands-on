@@ -1,0 +1,51 @@
+{
+
+    "browserdetails": [{
+            "browser": "chorme"
+        },
+        {
+            "browser": "firefox"
+        },
+        {
+            "browser": "IDE"
+        }
+
+
+    ],
+    "language":
+
+        [{
+                "language": "Python"
+            },
+            {
+                "language": "java"
+            }
+        ],
+    "Loactors":
+
+        [{
+                "locator": "xpath"
+            },
+            {
+                "locator": "CssSelector"
+            },
+
+            {
+                "locator": "LinkText"
+            }
+        ],
+    "Action Class": [{
+            "Actions": "DragAndDrop"
+        },
+        {
+            "Actions": "MouseOver"
+        },
+        {
+            "Actions": "ClickAndHold"
+        },
+        {
+            "Actions": "Release"
+        }
+    ]
+
+}

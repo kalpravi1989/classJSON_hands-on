@@ -1,0 +1,68 @@
+{
+  "Topic": "Java",
+  "Features": 
+    {
+      "Control Statement": 
+        {
+         "Conditions": [
+            "if",
+            " if else",
+            "Switch"
+          ],
+          "Loop": [
+            "for",
+            "while",
+            "Do while"
+          ],
+          "Statement": [
+            "Break",
+            "Continue"
+          ]
+        }
+      ,
+      "Data Types": 
+        {
+          "Primitive DataType": [
+            "byte",
+            "short",
+            "int",
+            "long",
+            "float",
+            "long",
+            "boolean",
+            "char"
+          ],
+          "Non-primitive DataType": [
+            "String",
+            "Array",
+            "classes"
+          ]
+        }
+      ,
+      "Keyword": [
+        "private",
+        "protected",
+        "public",
+        "static",
+        "void",
+        "default",
+        "final",
+        "new",
+        "interface",
+        "implements",
+        "null",
+        "this",
+        "throws",
+        "throw"
+      ],
+      "Oops": [
+        "Objects",
+        "class",
+        "Inheritance",
+        "Polymorphism",
+        "Abstraction",
+        "Encapsulation"
+      ]
+    }
+  
+}
