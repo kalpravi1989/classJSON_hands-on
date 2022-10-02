@@ -46,10 +46,11 @@ public class JsonHW {
 		
 		
 		JSONObject conStat =(JSONObject) ftopics.get("Control Statement");
-		System.out.println("Control Statement-loops"+"\n"+conStat.get("Loop"));                  //prints Control statement loops
+		System.out.println("Control Statement-loops in array"+"\n"+conStat.get("Loop"));                  //prints Control statement loops
 		JSONArray loop=(JSONArray)conStat.get("Loop");
+		
 		for(Object obj1: loop) {
-			System.out.println(obj);
+			System.out.println(obj1);
 			
 		}
 		
